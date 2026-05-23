@@ -27,6 +27,4 @@ if [ -f ".gitignore" ]; then
     echo "compile_commands.json" >> .gitignore
     echo "[INFO] Adding compile_commands.json to .gitignore"
   fi
-
-  echo "[INFO] Setup completed."
 fi
